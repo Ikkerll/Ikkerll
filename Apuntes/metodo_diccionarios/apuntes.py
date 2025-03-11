@@ -26,3 +26,20 @@ print(mi_diccionario.get("altura", "No disponible"))  # No disponible
 
 # Acceso directo
 print(mi_diccionario["edad"])  # 30
+
+
+
+"""
+diccionario[clave] = valor	Agrega o actualiza un elemento	mi_diccionario["edad"] = 26
+
+"""
+
+mi_diccionario = {"nombre": "Carlos", "edad": 22}
+
+# Agregar un nuevo par clave-valor
+mi_diccionario["ciudad"] = "Barcelona"
+
+# Modificar un valor existente
+mi_diccionario["edad"] = 23
+
+print(mi_diccionario)  # {'nombre': 'Carlos', 'edad': 23, 'ciudad': 'Barcelona'}
